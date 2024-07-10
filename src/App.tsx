@@ -10,7 +10,6 @@ const App = () => {
         <Routes>
           <Route path="/" element={<UserForm />} />
           <Route path="/data" element={<Data />} />
-          {/* <Route path="*" element={<Navigate to="/" />} /> */}
         </Routes>
       </BrowserRouter>
     </Box>

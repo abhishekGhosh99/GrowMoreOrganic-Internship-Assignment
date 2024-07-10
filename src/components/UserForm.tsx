@@ -10,7 +10,7 @@ const UserForm = () => {
     if (name && phone && email) {
       const userDetails = { name, phone, email };
       localStorage.setItem("userDetails", JSON.stringify(userDetails));
-      window.location.href = "/home";
+      window.location.href = "/data";
     } else {
       alert(
         "Please fill in all the fields. You cannot go to the homepage until you fill these information."

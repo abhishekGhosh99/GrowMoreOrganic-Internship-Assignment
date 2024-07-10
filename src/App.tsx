@@ -9,8 +9,8 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<UserForm />} />
-          <Route path="/home" element={<Data />} />
-          <Route path="*" element={<Navigate to="/" />} />
+          <Route path="/data" element={<Data />} />
+          {/* <Route path="*" element={<Navigate to="/" />} /> */}
         </Routes>
       </BrowserRouter>
     </Box>
